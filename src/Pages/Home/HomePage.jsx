@@ -6,6 +6,7 @@ import hero_title from '../../assets/hero_title.png'
 import play_icon from '../../assets/Play_icon.png'
 import info_icon from '../../assets/info_icon.png'
 import TitleCards from '../../Components/Titlecards/TitleCards'
+import Footer from '../../Components/Footer/Footer'
 
 
 
@@ -30,12 +31,19 @@ const HomePage = () => {
             <button className='btn dark-btn'><img src={info_icon} alt="" />Info</button>
 
           </div>
-          <TitleCards/>
+          <TitleCards />
 
         </div>
 
       </div>
+      <div className="more-cards">
+        <TitleCards title={'Blockbuster Movies'}/>
+        <TitleCards title={' Only On Netflix'}/>
+        <TitleCards title={'Upcomming'}/>
+        <TitleCards title={'Topics For you'}/>
 
+      </div>
+      <Footer/>
     </div>
   )
 }

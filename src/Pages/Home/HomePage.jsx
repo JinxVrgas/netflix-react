@@ -37,10 +37,10 @@ const HomePage = () => {
 
       </div>
       <div className="more-cards">
-        <TitleCards title={'Blockbuster Movies'}/>
-        <TitleCards title={' Only On Netflix'}/>
-        <TitleCards title={'Upcomming'}/>
-        <TitleCards title={'Topics For you'}/>
+        <TitleCards title={'Blockbuster Movies'} category={"top_rated"}/>
+        <TitleCards title={' Only On Netflix'} category={"popular"}/>
+        <TitleCards title={'Upcomming'} category={"upcoming"}/>
+        <TitleCards title={'Topics For you'} category={"now_playing"}/>
 
       </div>
       <Footer/>

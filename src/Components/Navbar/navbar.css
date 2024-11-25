@@ -7,6 +7,7 @@
     font-size: 14px;
     color: #e5e5e5;
     background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.7), 10%, trans);
+    z-index: 9999;
 }
 
 .navbar-left {
@@ -24,6 +25,11 @@
     display: flex;
     list-style: none;
     gap: 20px;
+
+
+
+
+
 }
 
 .navbar-left ul li {
@@ -73,7 +79,11 @@
     cursor: pointer;
 }
 
-.navbar-profile:hover .dropdown{
+.navbar-profile:hover .dropdown {
     display: block;
 
+}
+
+.nav-dark {
+    background: #141414;
 }

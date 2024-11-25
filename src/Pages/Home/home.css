@@ -4,6 +4,8 @@
 
 .hero .banner-img {
     width: 100%;
+    mask-image: linear-gradient(to right, transparent, black 75%);
+    -weblit-mask-image: linear-gradient(to right, transparent, black 75%);
 }
 
 .hero-caption {
@@ -17,6 +19,8 @@
     width: 90%;
     max-width: 420px;
     margin-bottom: 30px;
+    
+
 }
 
 .hero-caption p {
@@ -63,6 +67,6 @@
     background: #6d6d6e66
 }
 
-.more-cards{
+.more-cards {
     padding-left: 6%;
 }

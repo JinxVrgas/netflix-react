@@ -25,11 +25,6 @@
     display: flex;
     list-style: none;
     gap: 20px;
-
-
-
-
-
 }
 
 .navbar-left ul li {
@@ -86,4 +81,25 @@
 
 .nav-dark {
     background: #141414;
+}
+
+@media(max-width:800px){
+    .navbar{
+        padding: 20px 4%;
+    }
+    .navbar-left ul{
+        display: none;
+    }
+    .navbar img{
+        height: 25px;
+    }
+}
+
+@media(max-width){
+    .navbar img{
+        height: 20px;
+    }
+    .navbar-right{
+        gap:10px ;
+    }
 }

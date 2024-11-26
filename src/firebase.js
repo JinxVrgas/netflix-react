@@ -41,7 +41,7 @@ const signUp = async (name, email, password) => {
         console.log("User signed up and added to Firestore");
     } catch (error) {
         console.error("Error during sign up:", error);
-        toast.error("error.message");
+        toast.error("Something went wrong!");
     }
 };
 
@@ -52,8 +52,7 @@ const login = async (email, password) => {
         signInWithEmailAndPassword(auth, email, password);
     } catch (error) {
         console.log(error.message);
-        alert(error.message)
-
+        toast.error("Something went wrong!");
     }
 }
 
